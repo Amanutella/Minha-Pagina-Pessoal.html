@@ -115,7 +115,8 @@ img {
     background-size: cover;
 } 
 
-.info, .sobre1, .habilidades1, .competencia1  {
+
+.info, .sobre1, .habilidades1, .competencia1, .experiencia {
     display: flex;
     flex-direction: column;
     max-width: 1600px;
@@ -123,14 +124,14 @@ img {
     margin: auto;
 }
 
-.cardinfo, .cardsobre, .cardhabilidades, .cardcompetencia {
+.cardinfo, .cardsobre, .cardhabilidades, .cardcompetencia, .cardxp {
     padding: 0 10rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.caixainfo, .caixasobre, .caixahabilidades, .caixacompetencia {
+.caixainfo, .caixasobre, .caixahabilidades, .caixacompetencia, .caixaxp {
     background: #7b4da3b7;
     padding: 4rem;
     border-radius: 0.5rem;
@@ -217,11 +218,11 @@ h4 {
         margin-top: 6rem;
     }
 
-    .cardinfo, .cardsobre, .cardhabilidades, .cardcompetencia {
+    .cardinfo, .cardsobre, .cardhabilidades, .cardcompetencia, .cardxp {
         padding: 0 2rem;
     }
 
-    .caixainfo, .caixasobre, .caixahabilidades, .caixacompetencia {
+    .caixainfo, .caixasobre, .caixahabilidades, .caixacompetencia, .caixaxp {
         padding: 1rem;
     }
 }
